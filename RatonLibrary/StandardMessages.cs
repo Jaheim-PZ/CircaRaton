@@ -58,6 +58,10 @@ namespace RatonLibrary
             {
                 return "Needs a digit";
             }
+            else if (length < 6)
+                return "You need a longer password";
+            else if (!passWord.Any(char.IsNumber))
+                return "Need a number";
             else if (!passWord.Any(char.IsSymbol))
                 return "Needs special character";
             else if (!passWord.Any(char.IsLower))

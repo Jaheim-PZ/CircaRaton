@@ -18,6 +18,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Reader.ReadMobs(),Reader.ReadItems(),Reader.ReadPotions(),Reader.ReadRooms(),Reader.ReadTreasure(),Reader.ReadWeapons());
+            
             Console.WriteLine(StandardMesages.DisplayRato());
             Console.WriteLine(StandardMesages.UserName());
             Console.WriteLine(StandardMesages.PassWord());
@@ -32,32 +34,50 @@ namespace ConsoleUI
                     case "1":
                     case "rooms":
                         Console.WriteLine(StandardHeaders.HeaderRooms());
-                        ForEach.DisplayValues(World.rooms);
+                        foreach(string room in Lists.rooms)
+                        {
+                            Console.WriteLine(room);
+                        }
                         break;
                     case "2":
                     case "weapons":
                         Console.WriteLine(StandardHeaders.HeaderWeapons());
-                        ForEach.DisplayValues(World.weapons);
+                        foreach (string weapon in Lists.weapons)
+                        {
+                            Console.WriteLine(weapon);
+                        }
                         break;
                     case "3":
                     case "potions":
                         Console.WriteLine(StandardHeaders.HeaderPotions());
-                        ForEach.DisplayValues(World.potions);
+                        foreach (string potion in Lists.potions)
+                        {
+                            Console.WriteLine(potion);
+                        }
                         break;
                     case "4":
                     case "treasures":
                         Console.WriteLine(StandardHeaders.HeaderTreasures());
-                        ForEach.DisplayValues(World.treasures);
+                        foreach (string treasure in Lists.treasures)
+                        {
+                            Console.WriteLine(treasure);
+                        }
                         break;
                     case "5":
                     case "items":
                         Console.WriteLine(StandardHeaders.HeaderItems());
-                        ForEach.DisplayValues(World.items);
+                        foreach (string item in Lists.items)
+                        {
+                            Console.WriteLine(item);
+                        }
                         break;
                     case "6":
                     case "mobs":
                         Console.WriteLine(StandardHeaders.HeaderMobs());
-                        ForEach.DisplayValues(World.mobs);
+                        foreach (string mob in Lists.mobs)
+                        {
+                            Console.WriteLine(mob);
+                        }
                         break;
                     case "7":
                     case "north":

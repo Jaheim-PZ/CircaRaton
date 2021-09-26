@@ -1,7 +1,7 @@
 ﻿/**
 * 02021
 * CSC 153
-* Rebecca Garcia, Jaheim Patterson
+* Rebecca Garcia, Jaheim Patterson, Travis Bivins
 * TextAdventure
 */
 
@@ -58,7 +58,7 @@ namespace RatonLibrary
             {
                 return "Needs a digit";
             }
-            else if (length < 6)
+            else if (passWord.Length < 6)
                 return "You need a longer password";
             else if (!passWord.Any(char.IsNumber))
                 return "Need a number";

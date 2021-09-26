@@ -53,6 +53,7 @@ namespace ConsoleUI
             return lowerCase;
         }
 
+
         //public int PasswordSpecial(string str)
         //{
         //    int specialCase = 0;

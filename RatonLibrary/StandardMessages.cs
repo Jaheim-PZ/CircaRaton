@@ -51,6 +51,7 @@ namespace RatonLibrary
         {
             Console.Write(" | Enter Secret Entrance Code... ");
             string passWord = Console.ReadLine();
+            int length = passWord.Length;
 
 
 

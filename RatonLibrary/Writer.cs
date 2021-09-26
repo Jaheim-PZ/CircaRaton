@@ -20,7 +20,7 @@ namespace RatonLibrary
                     output.WriteLine($"{mob}");
                 }
                 output.Close();
-                return "";
+                return "Testing";
             }
             catch(Exception ex)
             {

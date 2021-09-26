@@ -15,6 +15,7 @@ namespace RatonLibrary
 {
     public static class StandardMesages
     {
+        string userName = Console.ReadLine();
         public static string DisplayRato()
         {
             return " |----------------------------------------------------------------------|\n" +
@@ -32,7 +33,8 @@ namespace RatonLibrary
                    " |       {______________o__________o____________/ .-~^        `~--'     |\n" +
                    " |                     ___)( )(___        `-.___.'                      |\n" +
                    " |                    (((__) (__)))                                     |\n" +
-                   " |----------------------------------------------------------------------|";
+                   " |----------------------------------------------------------------------|"
+                $"\r\nSelect an Option " + userName;
         }
 
 

@@ -1,7 +1,7 @@
 ﻿/**
 * 02021
 * CSC 153
-* Rebecca Garcia, Jaheim Patterson
+* Rebecca Garcia, Jaheim Patterson, Travis Bivins
 * TextAdventure
 */
 

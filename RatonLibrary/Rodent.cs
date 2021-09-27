@@ -13,6 +13,7 @@ namespace Engine.Models
         private string CharacterClass { get; set; }
         private string CharacterRace { get; set; }
 
+        ///HELLO
         ////public string Name
         ////{
         ////    get { return _name; }

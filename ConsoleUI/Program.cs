@@ -18,6 +18,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Writer.WriteMobs(),Writer.WriteItems(),Writer.WritePotions(),Writer.WriteRooms(),Writer.WriteTreasure(),Writer.WriteWeapons());
+
             Console.WriteLine(Reader.ReadMobs(),Reader.ReadItems(),Reader.ReadPotions(),Reader.ReadRooms(),Reader.ReadTreasure(),Reader.ReadWeapons());
             
             Console.WriteLine(StandardMesages.DisplayRato());

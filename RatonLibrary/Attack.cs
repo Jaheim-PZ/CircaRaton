@@ -11,18 +11,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace RatonLibrary
 {
     public static class Attack
     {
         public static string DisplayAttackResults()
-        {
-            int playerHp = 100;
-            Random hit = new Random();
+         {
+             int playerHp = 100;
+             Random hit = new Random();
 
-            int result = hit.Next(1, 20);
+             int result = hit.Next(1, 20);
 
-            return $"You took {result} of damage leaving you with {playerHp - result} Hp";
-        }
+             return $"You took {result} of damage leaving you with {playerHp - result} Hp";
+         }
     }
 }
+ 

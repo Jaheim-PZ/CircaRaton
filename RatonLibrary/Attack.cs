@@ -23,7 +23,8 @@ namespace RatonLibrary
 
              int result = hit.Next(1, 20);
 
-             return $"You took {result} of damage leaving you with {playerHp - result} Hp";
+            return ($"You took {result} of damage leaving you with {playerHp - result} Hp");
+            
          }
     }
 }

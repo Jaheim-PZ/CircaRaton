@@ -26,10 +26,17 @@ namespace RatonLibrary
                                                                 "Hallway/Path: Outlet Oasis", "Wall Cavity Falls", "Gutter Express",
                                                                 "Hallway/Path: Marios Casino Car Park", "Man Hole Hotel", "HoneySuckle Shrub Herbs" };
 
-        public static List<string> weapons = new List<string>() { "Wretched Blade", "Pest Axe",
-                                                                  "Stuarts Bow", "Whirly Twirly Saw" };
+        public static List<string> mobs = new List<string>() { "Fire Fox", "The Owl-Vengers", "Weasel Wicked", "Hellbent Hawk",
+                                                               "King Kobra", "Kilik", "Leviathan", "Seraph", "BloodHound", 
+                                                               "Kerberus", "Goliath", "Ether Drake", "Tiyana Vek", "Pekka", "FrossMoth" };
+        
+        public static List<string> weapons = new List<string>() { "Wretched Blade", "Pest Axe", "Stuarts Bow", "Whirly Twirly Saw", "Shield of Circa",
+                                                                  "Tythen Arrows", "MaulHammer", "KreigsNein", "JawaBomb", "Vibro Sword", "FlameThrower", "Gas Bong" };
+
         public static List<string> potions = new List<string>() { "Healing", "Arcane" };
+
         public static List<string> treasures = new List<string>() { "Pebble", "Fire Paper", "Music Box" };
+
         public static List<string> items = new List<string>() { "Holy-Water", "Shaman Bone Dust", "Rabied Worm", "Skullhead Key" };
     }
 }

@@ -36,7 +36,7 @@ namespace ConsoleUI
                     case "1":
                     case "rooms":
                         Console.WriteLine(StandardHeaders.HeaderRooms());
-                        foreach(string room in Lists.rooms)
+                        foreach(string room in World.rooms)
                         {
                             Console.WriteLine(room);
                         }
@@ -44,7 +44,7 @@ namespace ConsoleUI
                     case "2":
                     case "weapons":
                         Console.WriteLine(StandardHeaders.HeaderWeapons());
-                        foreach (string weapon in Lists.weapons)
+                        foreach (string weapon in World.weapons)
                         {
                             Console.WriteLine(weapon);
                         }
@@ -52,7 +52,7 @@ namespace ConsoleUI
                     case "3":
                     case "potions":
                         Console.WriteLine(StandardHeaders.HeaderPotions());
-                        foreach (string potion in Lists.potions)
+                        foreach (string potion in World.potions)
                         {
                             Console.WriteLine(potion);
                         }
@@ -60,7 +60,7 @@ namespace ConsoleUI
                     case "4":
                     case "treasures":
                         Console.WriteLine(StandardHeaders.HeaderTreasures());
-                        foreach (string treasure in Lists.treasures)
+                        foreach (string treasure in World.treasures)
                         {
                             Console.WriteLine(treasure);
                         }
@@ -68,7 +68,7 @@ namespace ConsoleUI
                     case "5":
                     case "items":
                         Console.WriteLine(StandardHeaders.HeaderItems());
-                        foreach (string item in Lists.items)
+                        foreach (string item in World.items)
                         {
                             Console.WriteLine(item);
                         }
@@ -76,7 +76,7 @@ namespace ConsoleUI
                     case "6":
                     case "mobs":
                         Console.WriteLine(StandardHeaders.HeaderMobs());
-                        foreach (string mob in Lists.mobs)
+                        foreach (string mob in World.mobs)
                         {
                             Console.WriteLine(mob);
                         }

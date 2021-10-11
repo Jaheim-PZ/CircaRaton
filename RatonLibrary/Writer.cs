@@ -15,7 +15,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("mobs.csv");
-               foreach(string mob in Lists.mobs)
+               foreach(string mob in World.mobs)
                 {
                     output.WriteLine($"{mob}");
                 }
@@ -36,7 +36,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("rooms.csv");
-                foreach (string room in Lists.rooms)
+                foreach (string room in World.rooms)
                 {
                     output.WriteLine($"{room}");
                 }
@@ -57,7 +57,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("weapons.csv");
-                foreach (string weapon in Lists.weapons)
+                foreach (string weapon in World.weapons)
                 {
                     output.WriteLine($"{weapon}");
                 }
@@ -77,7 +77,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("potions.csv");
-                foreach (string potion in Lists.potions)
+                foreach (string potion in World.potions)
                 {
                     output.WriteLine($"{potion}");
                 }
@@ -97,7 +97,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("weapons.csv");
-                foreach (string treasure in Lists.treasures)
+                foreach (string treasure in World.treasures)
                 {
                     output.WriteLine($"{treasure}");
                 }
@@ -117,7 +117,7 @@ namespace RatonLibrary
             try
             {
                 output = File.CreateText("items.csv");
-                foreach (string item in Lists.items)
+                foreach (string item in World.items)
                 {
                     output.WriteLine($"{item}");
                 }

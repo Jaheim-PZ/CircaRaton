@@ -18,7 +18,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.mobs.Add(Tokens[0]);
+                    World.mobs.Add(Tokens[0]);
                 }   
                 inputFile.Close();
                 return "";
@@ -39,7 +39,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.rooms.Add(Tokens[0]);
+                    World.rooms.Add(Tokens[0]);
                 }
                 inputFile.Close();
                 return "Loaded";
@@ -60,7 +60,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.weapons.Add(Tokens[0]);
+                    World.weapons.Add(Tokens[0]);
                 }
                 inputFile.Close();
                 return "Loaded";
@@ -81,7 +81,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.potions.Add(Tokens[0]);
+                    World.potions.Add(Tokens[0]);
                 }
                 inputFile.Close();
                 return "YES";
@@ -102,7 +102,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.items.Add(Tokens[0]);
+                    World.items.Add(Tokens[0]);
                 }
                 inputFile.Close();
                 return "Loaded";
@@ -123,7 +123,7 @@ namespace RatonLibrary
                 while (!inputFile.EndOfStream)
                 {
                     string[] Tokens = inputFile.ReadLine().Split(',');
-                    Lists.treasures.Add(Tokens[0]);
+                    World.treasures.Add(Tokens[0]);
                 }
                 inputFile.Close();
                 return "Loaded";

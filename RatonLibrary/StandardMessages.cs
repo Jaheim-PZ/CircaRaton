@@ -74,9 +74,9 @@ namespace RatonLibrary
         }
 
 
-        public static string DisplayMenuPrompt()
+        public static string DisplayMenuPrompt(string username)
         {
-                    string userName = Console.ReadLine();
+                    //string userName = Console.ReadLine();
 
                     
             return  "|         ~~~~{ S:>  CIRCA*RATON  <:3 }~~~~             |\n" +
@@ -92,9 +92,9 @@ namespace RatonLibrary
                     "|              9) Attack         /|o  |       <*___)_)  |\n" +
                     "|              10) EXIT         /o|  o|        ''''     |\n" +
                     "|------------------------------/o_|_o_|-----------------|\n" +
-                   $"\r\nSelect an Option " + userName;
+                   $"\r\nSelect an Option, " + username + ": ";
 
-          
+
         }
 
         public static string DisplayRoom(int index)

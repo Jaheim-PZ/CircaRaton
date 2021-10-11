@@ -16,6 +16,7 @@ namespace ConsoleUI
 {
     class Program
     {
+        static string username;
         static void Main(string[] args)
         {
             Console.WriteLine(Writer.WriteMobs(),Writer.WriteItems(),Writer.WritePotions(),Writer.WriteRooms(),Writer.WriteTreasure(),Writer.WriteWeapons());
@@ -23,14 +24,14 @@ namespace ConsoleUI
             Console.WriteLine(Reader.ReadMobs(),Reader.ReadItems(),Reader.ReadPotions(),Reader.ReadRooms(),Reader.ReadTreasure(),Reader.ReadWeapons());
             
             Console.WriteLine(StandardMesages.DisplayRato());
-            Console.WriteLine(StandardMesages.UserName());
+            Console.WriteLine(username = StandardMesages.UserName());
             Console.WriteLine(StandardMesages.PassWord());
 
             while (World.exit == false)
-            {                               
+            {
                 Console.WriteLine(StandardMesages.DisplayRoom(World.index));
-                Console.Write(StandardMesages.DisplayMenuPrompt());
-                
+                Console.Write(StandardMesages.DisplayMenuPrompt(username));
+
                 switch (Console.ReadLine().ToLower())
                 {
                     case "1":

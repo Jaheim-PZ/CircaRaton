@@ -55,6 +55,16 @@ namespace RatonLibrary
             Console.WriteLine();
             return "|===================*S*O*U*T*H*=========================|";
         }
+        public static string HeaderEast()
+        {
+            Console.WriteLine();
+            return "|====================*E*A*S*T*==========================tr|";
+        }
+        public static string HeaderWest()
+        {
+            Console.WriteLine();
+            return "|====================*W*E*S*T*==========================|";
+        }
         public static string HeaderAttack()
         {
             Console.WriteLine();

@@ -30,5 +30,21 @@ namespace ConsoleUI
                 index--;
             }
         }
+
+        public static void MoveEast(ref int index)
+        {
+            if (index > 0)
+            {
+                index--;
+            }
+        }
+
+        public static void MoveWest(ref int index)
+        {
+            if (index > 0)
+            {
+                index--;
+            }
+        }
     }
 }

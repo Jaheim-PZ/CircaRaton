@@ -93,11 +93,21 @@ namespace ConsoleUI
                         Movement.MoveSouth(ref World.index);
                         break;
                     case "9":
+                    case "east":
+                        Console.WriteLine(StandardHeaders.HeaderEast());
+                        Console.WriteLine("(10/20/2021) *TODO*: rooms East");
+                        break;
+                    case "10":
+                    case "west":
+                        Console.WriteLine(StandardHeaders.HeaderWest());
+                        Console.WriteLine("(10/20/2021) *TODO*: rooms West");
+                        break;
+                    case "11":
                     case "attack":
                         Console.WriteLine(StandardHeaders.HeaderAttack());
                         Console.WriteLine(Attack.DisplayAttackResults());
                         break;
-                    case "10":
+                    case "12":
                     case "exit":
                         World.exit = true;
                         break;

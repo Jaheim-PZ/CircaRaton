@@ -88,9 +88,9 @@ namespace RatonLibrary
                     "|      `''''`  7) Move North        <^___)_)            |\n" +
                     "|              8) Move South          ''''    (( )_ (   |\n" +
                     "|              9) Move East                   <*___)_)  |\n" +
-                    "|             10) Move West       _____                 |\n" +
+                    "|             10) Move West       _____         ''''    |\n" +
                     "|             11) Attack         /|o  |                 |\n" +
-                    "              12) EXIT          /o|  o|        ''''     |\n" +
+                    "              12) EXIT          /o|  o|                 |\n" +
                     "|------------------------------/o_|_o_|-----------------|\n" +
                    $"\r\nSelect an Option, " + username + ": ";
         }

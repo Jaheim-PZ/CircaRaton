@@ -26,6 +26,11 @@ namespace RatonLibrary
                                                                 "Hallway/Path: Outlet Oasis", "Wall Cavity Falls", "Gutter Express",
                                                                 "Hallway/Path: Marios Casino Car Park", "Man Hole Hotel", "HoneySuckle Shrub Herbs" };
 
+        /// <Movement>
+        /// TODO: nodes? linked list? step thru rooms NESW...
+        /// example start: public static LinkedList<string> rooms = new LinkedList<string>()
+        /// </Movement>
+
         public static List<string> mobs = new List<string>() { "Fire Fox", "The Owl-Vengers", "Weasel Wicked", "Hellbent Hawk",
                                                                "King Kobra", "Kilik", "Leviathan", "Seraph", "BloodHound", 
                                                                "Kerberus", "Goliath", "Ether Drake", "Tiyana Vek", "Pekka", "FrossMoth" };

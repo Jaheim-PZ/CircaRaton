@@ -43,5 +43,7 @@ namespace RatonLibrary
         public static List<string> treasures = new List<string>() { "Pebble", "Fire Paper", "Music Box" };
 
         public static List<string> items = new List<string>() { "Holy-Water", "Shaman Bone Dust", "Rabied Worm", "Skullhead Key" };
+      
     }
+    
 }

@@ -1,0 +1,10 @@
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.dll
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.pdb
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\bivinst5220\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb

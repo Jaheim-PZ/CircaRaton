@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace RatonLibrary
 {
-    public class Potion : IItems
+    public interface IItems
     {
-        public Potion(int hpRestored, int apRestored)
-        {
-            HPRestored = hpRestored;
-            APRestored = apRestored;
-        }
-        public int HPRestored { get; set; }
-        public int APRestored { get; set; }
         public string Name { get; set; }
         public double Weight { get; set; }
         public int Value { get; set; }

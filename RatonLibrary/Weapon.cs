@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace RatonLibrary
 {
-    public class Weapon : Items
+    public class Weapon : IItems
     {
-        public Weapon(string name, string weaponType, string damageType, int attackPower,double weight, int value) : base(name, weight, value)
+        public Weapon(string weaponType, string damageType, int attackPower)
         {
             WeaponType = weaponType;
             DamageType = damageType;
@@ -17,5 +17,8 @@ namespace RatonLibrary
         public string WeaponType { get; set; }
         public string DamageType { get; set; }
         public int AttackPower { get; set; }
+        public string Name { get; set; }
+        public double Weight { get; set; }
+        public int Value { get; set; }
     }
 }

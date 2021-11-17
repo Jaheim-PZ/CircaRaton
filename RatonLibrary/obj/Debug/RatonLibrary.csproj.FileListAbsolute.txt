@@ -4,3 +4,7 @@ C:\Users\bivinst5220\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary
 C:\Users\bivinst5220\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csproj.CoreCompileInputs.cache
 C:\Users\bivinst5220\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.dll
 C:\Users\bivinst5220\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb
+C:\Users\garciar2566\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csprojAssemblyReference.cache
+C:\Users\garciar2566\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\garciar2566\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.dll
+C:\Users\garciar2566\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace RatonLibrary
 {
@@ -47,6 +48,7 @@ namespace RatonLibrary
             return userName;
         }
 
+
         public static string PassWord()
         {
             Console.Write(" | Enter Secret Entrance Code... ");
@@ -57,20 +59,35 @@ namespace RatonLibrary
 
             if (!passWord.Any(char.IsDigit))
             {
-                return "Needs a digit";
+                Console.Write(" |TEST for LEngth");
+                return "";
+
             }
             else if (passWord.Length < 6)
-                return "You need a longer password";
+            {
+                Console.Write(" |You need a longer password");
+                return "";
+            }
             else if (!passWord.Any(char.IsNumber))
+            {
                 return "Need a number";
+            }
             else if (!passWord.Any(char.IsSymbol))
+            {
                 return "Needs special character";
+            }
             else if (!passWord.Any(char.IsLower))
+            {
                 return "Needs a lowercase";
+            }
             else if (!passWord.Any(char.IsUpper))
-                return "Needs an uppercase";
+            { 
+                return "Needs an uppercase"; 
+            }
             else
-                return "Good password";
+            { 
+                return "Good Soup!"; 
+            }
         }
 
 

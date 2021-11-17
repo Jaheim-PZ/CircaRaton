@@ -48,7 +48,6 @@ namespace ConsoleUI
                         foreach (string weapon in World.weapons)
                         {
                             Console.WriteLine(weapon);
-
                         }
                         break;
                     case "3":

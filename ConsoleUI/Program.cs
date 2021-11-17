@@ -25,7 +25,7 @@ namespace ConsoleUI
             
             Console.WriteLine(StandardMesages.DisplayRato());
             Console.WriteLine(username = StandardMesages.UserName());
-            Console.WriteLine(StandardMesages.PassWord());
+            Console.WriteLine(StandardMesages.ValidatePassword());
             
             while (World.exit == false)
             {

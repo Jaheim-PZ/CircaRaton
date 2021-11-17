@@ -36,8 +36,6 @@ namespace RatonLibrary
                    " |----------------------------------------------------------------------|";
         }
 
-
-        
         public static string UserName()
         {
             Console.Write(" | Enter Thy Name Rodent!... ");
@@ -47,7 +45,6 @@ namespace RatonLibrary
             Console.ReadLine();
             return userName;
         }
-
 
         public static string PassWord()
         {
@@ -59,14 +56,11 @@ namespace RatonLibrary
 
             if (!passWord.Any(char.IsDigit))
             {
-                Console.Write(" |TEST for LEngth");
-                return "";
-
+                return " |TEST for LEngth";      
             }
             else if (passWord.Length < 6)
             {
-                Console.Write(" |You need a longer password");
-                return "";
+                return " |You need a longer password";
             }
             else if (!passWord.Any(char.IsNumber))
             {

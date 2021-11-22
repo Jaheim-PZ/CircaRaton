@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace RatonLibrary
 {
-    public interface IItems
+    public class MobInformation
     {
-        string Name { get; set; }
-        double Weight { get; set; }
-        int Value { get; set; }
+
     }
 }

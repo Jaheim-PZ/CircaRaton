@@ -46,6 +46,7 @@
     <Compile Include="IItems.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Mob.cs" />
+    <Compile Include="MobInformation.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerHealth.cs" />
     <Compile Include="Potion.cs" />

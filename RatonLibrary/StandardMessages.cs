@@ -46,45 +46,58 @@ namespace RatonLibrary
             return userName;
         }
 
-        public static string PassWord()
+        public static void PassWord()
         {
-            Console.Write(" | Enter Secret Entrance Code... ");
-            string passWord = Console.ReadLine();
-            int length = passWord.Length;
+            bool validPassword = false;
+            
 
-
-
-            if (!passWord.Any(char.IsDigit))
+            while(validPassword == false)
             {
-                return " |TEST for LEngth";      
-            }
-            else if (passWord.Length < 6)
-            {
-                return " |You need a longer password";
-            }
-            else if (!passWord.Any(char.IsNumber))
-            {
-                return "Need a number";
-            }
-            else if (!passWord.Any(char.IsSymbol))
-            {
-                return "Needs special character";
-            }
-            else if (!passWord.Any(char.IsLower))
-            {
-                return "Needs a lowercase";
-            }
-            else if (!passWord.Any(char.IsUpper))
-            { 
-                return "Needs an uppercase"; 
-            }
-            else
-            { 
-                return "Good Soup!"; 
+                Console.Write(" | Enter Secret Entrance Code... ");
+                string passWord = Console.ReadLine();
+                int length = passWord.Length;
+                if(passWord.Any(char.IsUpper) && passWord.Any(Char.IsLower) && passWord.Any(char.IsNumber) && passWord.Any(char.IsSymbol))
+                {
+                    validPassword = true;
+                    Console.WriteLine("Good Soup!");
+                }
+                else
+                {
+                    Console.WriteLine("That is an invalid password, please try again");
+                }
             }
         }
+        public static void playerClass()
+        {
+            string ClassName = "";
+            bool validClass = false;
+            while (validClass == false)// setsup the while statement so this will keep running until they enter a valid class option
+            {
+                Console.WriteLine("What class would you like to be?");
 
+                Console.Write("Fancy, Dumbo , DumCY > ");
+                ClassName = Console.ReadLine().ToLower();
+                if (ClassName == "fancy")
+                {
 
+                    validClass = true;
+                }
+                else if (ClassName == "dumbo")
+                {
+
+                    validClass = true;
+                }
+                else if (ClassName == "dumcy")
+                {
+
+                    validClass = true;
+                }
+                else
+                {
+                    Console.WriteLine("Not a valid class, please enter a valid option");// this is the catch for if they enter an invalid class
+                }
+            }
+        }
         public static string DisplayMenuPrompt(string username)
         {
                     

@@ -22,10 +22,11 @@ namespace ConsoleUI
             //Console.WriteLine(Writer.WriteMobs(),Writer.WriteItems(),Writer.WritePotions(),Writer.WriteRooms(),Writer.WriteTreasure(),Writer.WriteWeapons());
 
             //Console.WriteLine(Reader.ReadMobs(),Reader.ReadItems(),Reader.ReadPotions(),Reader.ReadRooms(),Reader.ReadTreasure(),Reader.ReadWeapons());
-            
+            Mob myFireFox = new Mob("Fire Fox", "Bank", 100, 25);
             Console.WriteLine(StandardMesages.DisplayRato());
             Console.WriteLine(username = StandardMesages.UserName());
-            Console.WriteLine(StandardMesages.ValidatePassword());
+            StandardMesages.PassWord();
+            StandardMesages.playerClass();
             
             while (World.exit == false)
             {

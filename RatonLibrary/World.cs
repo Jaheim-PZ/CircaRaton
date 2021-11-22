@@ -25,7 +25,7 @@ namespace RatonLibrary
                                                                 "PopTart Plaza", "ToolBox Tavern", "Me Nifridge Melts",
                                                                 "Hallway/Path: Outlet Oasis", "Wall Cavity Falls", "Gutter Express",
                                                                 "Hallway/Path: Marios Casino Car Park", "Man Hole Hotel", "HoneySuckle Shrub Herbs" };
-
+        
         /// <Movement>
         /// TODO: nodes? linked list? step thru rooms NESW...
         /// example start: public static LinkedList<string> rooms = new LinkedList<string>()

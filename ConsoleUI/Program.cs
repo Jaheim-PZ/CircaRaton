@@ -22,17 +22,17 @@ namespace ConsoleUI
             //Console.WriteLine(Writer.WriteMobs(),Writer.WriteItems(),Writer.WritePotions(),Writer.WriteRooms(),Writer.WriteTreasure(),Writer.WriteWeapons());
 
             //Console.WriteLine(Reader.ReadMobs(),Reader.ReadItems(),Reader.ReadPotions(),Reader.ReadRooms(),Reader.ReadTreasure(),Reader.ReadWeapons());
-            Mob myFireFox = new Mob("Fire Fox", "Bank", 100, 25);
+            
             Console.WriteLine(StandardMesages.DisplayRato());
             Console.WriteLine(username = StandardMesages.UserName());
             StandardMesages.PassWord();
             StandardMesages.playerClass();
-            
+ 
             while (World.exit == false)
             {
                 Console.WriteLine(StandardMesages.DisplayRoom(World.index));
                 Console.Write(StandardMesages.DisplayMenuPrompt(username));
-                
+             
                 switch (Console.ReadLine().ToLower())
                 {
                     case "1":
@@ -41,6 +41,7 @@ namespace ConsoleUI
                         foreach(string room in World.rooms)
                         {
                             Console.WriteLine(room);
+
                         }
                         break;
                     case "2":
@@ -73,6 +74,7 @@ namespace ConsoleUI
                         foreach (string item in World.items)
                         {
                             Console.WriteLine(item);
+                            Console.WriteLine(MobInformation.MobInfo());
                         }
                         break;
                     case "6":

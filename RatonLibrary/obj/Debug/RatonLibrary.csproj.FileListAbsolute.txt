@@ -14,3 +14,9 @@ C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\Ra
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\bin\Debug\RatonLibrary.dll
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\bin\Debug\RatonLibrary.pdb
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\bin\Debug\RatonLibrary.dll
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\bin\Debug\RatonLibrary.pdb
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csprojAssemblyReference.cache
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.dll
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb

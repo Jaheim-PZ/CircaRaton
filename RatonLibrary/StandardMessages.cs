@@ -18,6 +18,7 @@ namespace RatonLibrary
     {
         public static string DisplayRato()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             return " |----------------------------------------------------------------------|\n" +
                    " |                  .--,       .--,                                     |\n" +
                    " |                 ( (  }.---.{  ) )                                    |\n" +
@@ -53,6 +54,7 @@ namespace RatonLibrary
 
             while(validPassword == false)
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.Write(" | Enter Secret Entrance Code... ");
                 string passWord = Console.ReadLine();
                 int length = passWord.Length;
@@ -94,6 +96,7 @@ namespace RatonLibrary
                 }
                 else
                 {
+                   
                     Console.WriteLine("Not a valid class, please enter a valid option");// this is the catch for if they enter an invalid class
                 }
             }

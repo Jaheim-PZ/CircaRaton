@@ -15,5 +15,7 @@ namespace RatonLibrary
         }
         public int HP { get; set; }
         public int AP { get; set; }
+
     }
+   
 }

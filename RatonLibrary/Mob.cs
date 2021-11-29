@@ -15,5 +15,6 @@ namespace RatonLibrary
         }
         public string MobName { get; set; }
         public string Location { get; set; }
+
     }
 }

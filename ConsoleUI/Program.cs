@@ -74,7 +74,7 @@ namespace ConsoleUI
                         foreach (string item in World.items)
                         {
                             Console.WriteLine(item);
-                            Console.WriteLine(MobInformation.MobInfo());
+
                         }
                         break;
                     case "6":
@@ -83,6 +83,7 @@ namespace ConsoleUI
                         foreach (string mob in World.mobs)
                         {
                             Console.WriteLine(mob);
+
                         }
                         break;
                     case "7":

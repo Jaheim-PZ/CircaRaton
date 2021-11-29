@@ -28,6 +28,7 @@ C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\Conso
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\bivinst5220\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb
+<<<<<<< HEAD
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe.config
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.pdb
@@ -38,3 +39,15 @@ C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.c
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\bivinst5220\Documents\GitHub\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb
+=======
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.dll
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.pdb
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb
+>>>>>>> d10f8991c9ec62764d39354362cade7e9b48e780

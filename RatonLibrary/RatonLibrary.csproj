@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Attack.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="ForeGroundCollors.cs" />
     <Compile Include="IItems.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Mob.cs" />

@@ -54,17 +54,23 @@ namespace RatonLibrary
 
             while(validPassword == false)
             {
-                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write(" | Enter Secret Entrance Code... ");
                 string passWord = Console.ReadLine();
                 int length = passWord.Length;
                 if(passWord.Any(char.IsUpper) && passWord.Any(Char.IsLower) && passWord.Any(char.IsNumber) && passWord.Any(char.IsSymbol))
                 {
                     validPassword = true;
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+
+
                     Console.WriteLine("Good Soup!");
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+
                     Console.WriteLine("That is an invalid password, please try again");
                 }
             }
@@ -75,6 +81,8 @@ namespace RatonLibrary
             bool validClass = false;
             while (validClass == false)// setsup the while statement so this will keep running until they enter a valid class option
             {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+
                 Console.WriteLine("What class would you like to be?");
 
                 Console.Write("Fancy, Dumbo , DumCY > ");
@@ -96,15 +104,19 @@ namespace RatonLibrary
                 }
                 else
                 {
-                   
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+
+
                     Console.WriteLine("Not a valid class, please enter a valid option");// this is the catch for if they enter an invalid class
                 }
             }
         }
         public static string DisplayMenuPrompt(string username)
         {
-                    
-            return  "|         ~~~~{ S:>  CIRCA*RATON  <:3 }~~~~             |\n" +
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
+
+            return "|         ~~~~{ S:>  CIRCA*RATON  <:3 }~~~~             |\n" +
                     "|-------------------------------------------------------|\n" +
                     "|         _    1) Display Rooms     (`-()_.-=-.         |\n" +
                     "|       (( )_, 2) Display Weapons    /66  ,  ,  )       |\n" +

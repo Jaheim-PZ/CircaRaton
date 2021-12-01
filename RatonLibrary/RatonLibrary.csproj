@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5DDFF667-4492-4496-9D85-87728BA2C58E}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RatonLibrary</RootNamespace>
     <AssemblyName>RatonLibrary</AssemblyName>
@@ -48,12 +48,6 @@
   <ItemGroup>
     <Compile Include="Attack.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="RatonLibWin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RatonLibWin.Designer.cs">
-      <DependentUpon>RatonLibWin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Rooms.cs" />
     <Compile Include="IItems.cs" />
     <Compile Include="Items.cs" />

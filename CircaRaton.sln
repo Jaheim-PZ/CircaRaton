@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{14302FB5-EA61-4075-BF76-417CA30BAC4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatonLibrary", "RatonLibrary\RatonLibrary.csproj", "{5DDFF667-4492-4496-9D85-87728BA2C58E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{101B8C7A-5C82-4754-ABD0-E3640995F16F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircaRaton", "CircaRaton\CircaRaton.csproj", "{7B18CA47-3503-4138-8245-A1C15D0F0A88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{101B8C7A-5C82-4754-ABD0-E3640995F16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{101B8C7A-5C82-4754-ABD0-E3640995F16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101B8C7A-5C82-4754-ABD0-E3640995F16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B18CA47-3503-4138-8245-A1C15D0F0A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B18CA47-3503-4138-8245-A1C15D0F0A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B18CA47-3503-4138-8245-A1C15D0F0A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B18CA47-3503-4138-8245-A1C15D0F0A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

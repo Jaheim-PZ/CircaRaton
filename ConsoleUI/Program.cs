@@ -125,7 +125,6 @@ namespace ConsoleUI
                         break;
                 }
                 Console.WriteLine("");
-                Application.Run(new demoForm());
 
 
             }

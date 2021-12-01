@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using RatonLibrary;
 
 namespace Engine.ViewModels
 {
@@ -12,7 +14,7 @@ namespace Engine.ViewModels
 
         public GameSession()
         {
-            CurrentPlayer = new Player();
+            CurrentPlayer = new Player(100, 50, 40);
             CurrentPlayer.Name = "Luty";
             CurrentPlayer.CharacterClass = "Fighter";
             CurrentPlayer.HitPoints = 10;

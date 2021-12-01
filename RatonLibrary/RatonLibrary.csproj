@@ -30,9 +30,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,7 +48,13 @@
   <ItemGroup>
     <Compile Include="Attack.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="ForeGroundCollors.cs" />
+    <Compile Include="RatonLibWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RatonLibWin.Designer.cs">
+      <DependentUpon>RatonLibWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms.cs" />
     <Compile Include="IItems.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Mob.cs" />

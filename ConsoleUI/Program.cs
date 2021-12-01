@@ -5,7 +5,11 @@
 * TextAdventure
 */
 
+
+
+
 using System;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -121,6 +125,9 @@ namespace ConsoleUI
                         break;
                 }
                 Console.WriteLine("");
+                Application.Run(new demoForm());
+
+
             }
         }
     }

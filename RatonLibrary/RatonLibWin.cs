@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace RatonLibrary
 {
-    public class Character
+    public partial class RatonLibWin : Form
     {
-        public Character(int hp, int ap)
+        public RatonLibWin()
         {
-            HP = hp;
-            AP = ap;
+            InitializeComponent();
         }
-        public int HP { get; set; }
-        public int AP { get; set; }
-
     }
-   
 }

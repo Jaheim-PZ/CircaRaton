@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
+
 using System.Threading.Tasks;
 
 
@@ -37,7 +39,7 @@ namespace RatonLibrary
                 {
                     Console.WriteLine($"You attack the Firefox dealing {result}");
                     int FinalHp = currentHp - result;
-                    Console.WriteLine("The Firefox is left with" + FinalHp);
+                    Console.WriteLine("The Firefox is left with " + FinalHp);
                     if(FinalHp <= 0)
                     {
                         Console.WriteLine("You have defeated the enemy!");

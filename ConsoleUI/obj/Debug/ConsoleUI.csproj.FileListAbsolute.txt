@@ -51,13 +51,3 @@ C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\Cons
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb
 >>>>>>> d10f8991c9ec62764d39354362cade7e9b48e780
-D:\Current Classes\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe.config
-D:\Current Classes\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\Current Classes\CircaRaton\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\Current Classes\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.dll
-D:\Current Classes\CircaRaton\ConsoleUI\bin\Debug\RatonLibrary.pdb
-D:\Current Classes\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
-D:\Current Classes\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
-D:\Current Classes\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
-D:\Current Classes\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
-D:\Current Classes\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb

@@ -37,7 +37,7 @@ namespace RatonLibrary
                 Console.WriteLine("The Firefox is left with " + currentHp);
                 if(currentHp > 0)
                 {
-                    Console.WriteLine($"You attack the Firefox dealing {result}");
+                    Console.WriteLine($"You attack the Firefox dealing {result} ");
                     int FinalHp = currentHp - result;
                     Console.WriteLine("The Firefox is left with " + FinalHp);
                     if(FinalHp <= 0)

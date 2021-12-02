@@ -51,3 +51,7 @@ C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\Cons
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb
 >>>>>>> d10f8991c9ec62764d39354362cade7e9b48e780
+C:\Users\Jahei\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\Jahei\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\Jahei\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Jahei\Source\Repos\CircaRaton\ConsoleUI\obj\Debug\ConsoleUI.pdb

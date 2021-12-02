@@ -29,3 +29,6 @@ C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\R
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.dll
 C:\Users\pattersj9728\Source\Repos\Jaheim-PZ\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb
 >>>>>>> d10f8991c9ec62764d39354362cade7e9b48e780
+C:\Users\Jahei\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csproj.AssemblyReference.cache
+C:\Users\Jahei\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jahei\Source\Repos\CircaRaton\RatonLibrary\obj\Debug\RatonLibrary.pdb
